@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* HEADER START */
+
+.header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 100;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jfc{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.nav{
+     padding: 25px;
+}
+
+.header .menu .list li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+.header .menu .list li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.header .menu .list li a:hover{
+    color: #FF695F;
+}
+
+.header .menu .list li .btn:hover{
+    background-color: #03A4ED;
+    color: white;
+}
+
+.header .menu .list li .home{
+    color: #FF695F;
+}
+
+.header .menu .list li .btn{
+    padding: 12px 25px;
+    background-color: #FF695F;
+    border-radius: 8mm;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+/* HEADER END */
+/* ================ */
+/* WELCOME SECTION START */
+
+.welcome{
+    background-image: url(../photo/bck1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome .nft{
+    position: absolute;
+    top: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome .nft h3{
+    color: #FF695F;
+    font-size: 20px;
+}
+
+.welcome .nft h1{
+    font-size: 50px;
+    width: 50%;
+}
+
+.welcome .nft p{
+    width: 40%;
+    margin-top: 15px;
+}
+
+.welcome .nft .btns{
+    margin-top: 20px;
+}
+
+.welcome .nft .btns a{
+    padding: 12px 25px;
+    border-radius: 8mm;
+    text-decoration: none;
+    color: white;
+    background-color: #03A4ED;
+    transition: 0.3s ease-in-out;
+}
+
+.welcome .nft .btns a:hover{
+    background-color: #FF695F;
+}
+
+.welcome .nft i{
+    margin-left: 15px;
+    color: #FF695F;
+    border-radius: 50%;
+}
+
+/* WELCOME SECTION END */
+/* ======================= */
+/* PROVIDE SECTION START */
+
+.provide{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.provide .text{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.provide .text .main{
+    width: 30%;
+    margin-left: 420px;
+}
+
+.provide .text .op{
+    color: #FF695F;
+    opacity: 0.25;
+}
+
+.provide .boxes .box{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    border-bottom: 3px solid #FF695F;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.267);
+
+}
+.provide .boxes{
+    margin-top: 30px;
+}
+
+.provide .boxes .box .icon{
+    width: 213px;
+    height: 134px;
+    background: url(../photo/icon-bg-a.png) no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.provide .boxes .box .icon img{
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.provide .boxes .box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+    line-height: 80px;
+}
+
+.provide .boxes .box p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+
+/* PRVIDE SECTION END */
+/* ================== */
+/* GROW SECTION START */
+
+.grow{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grow .left{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.grow .left img{
+    width: 65%;
+}
+
+.grow .right{
+    position: absolute;
+    width: 40%;
+    right: 10%;
+    top: 10%;
+}
+
+.grow .right p{
+    margin-top: 45px;
+}
+
+.grow .right h1{
+    font-size: 32px;
+}
+
+.grow .right .boxes .box{
+    width: 31%;
+    margin: 110px 0 0 12px;
+}
+
+.grow .right .boxes .box h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.grow .right .boxes .box h6{
+    font-size: 16px;
+    color: #FF695F;
+}
+
+.grow .right .boxes .box hr{
+    border: 10px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+/* GROW SECTION END */
+/* ================ */
+/* CASE SECTION START */
+
+.case{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.case h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.case .blur{
+    color: #FF695F;
+    opacity: 0.25;
+}
+
+.case .boxes{
+    margin-top: 30px;
+}
+
+.case .boxes .box img{
+    border-radius: 8mm;
+}
+
+/* CASE SECTION END */
+/* ================ */
+/* PLAN SECTION START */
+
+.plan{
+    width: 100%;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+.plan .text{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.plan .boxes .box{
+    text-align: center;
+    line-height: 45px;
+    border-radius: 8mm;
+    width: 30%;
+    padding: 35px 25px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.267);
+
+
+}
+
+.plan .boxes .box h4{
+    font-size: 25px;
+}
+
+.plan .boxes .box h1{
+    font-size: 45px;
+}
+
+.plan .boxes .box a{
+    background-color: #03A4ED;
+    text-decoration: none;
+    color: white;
+    padding: 13px 23px;
+    border-radius: 8mm;
+    transition: 0.3s ease-in-out;
+}
+
+.plan .boxes .box a:hover{
+    background-color: #FF695F;
+    color: white;
+}
+
+.plan .blur{
+    color: #ff6a5f98;
+}
+
+/* PLAN SECTION END */
+/* ================ */
+/* ENTER SECTION START */
+
+.enter{
+    width: 100%;
+    height: 80vh;
+}
+
+.enter .photo {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+}
+
+.enter .text{
+    position: absolute;
+    display: inline;
+    margin-top: 150px;
+    left: 26%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.enter .text .email{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-radius: 50px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 0 15px;
+    margin-top: 25px;
+    border: 0px;
+}
+
+.enter .text .btn1{
+    position: absolute;
+    top: 88px;
+    right: 15px;
+}
+
+.enter .text a{
+    text-decoration: none;
+    background-color: #03A4ED;
+    padding: 12px 20px;
+    border-radius: 8mm;
+    color: white;
+}
+
+/* ENTER SECTION END */
+/* ================= */
+/* FEEL SECTION START */
+
+.feel {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(223, 204, 180);
+    font-family: 'Poppins', sans-serif;
+}
+
+.feel .head-text{
+    font-size: 25px;
+}
+
+.feel .boxes .left-box{
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    background: #fff;
+    border: 2px solid #ff7b63;
+    border-radius: 20px;
+    width: 40rem;
+} 
+
+.feel .boxes .left-box i{
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    background: #FF695F;
+    background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.feel .boxes .left-box a{
+    color: #FF695F;
+}
+
+.feel .boxes .right-box{
+    width: 550px;
+    height: 400px;
+    background: url(../photo/contact-form-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: right;
+}
+
+.feel .boxes .right-box input{
+    width: 25rem;
+    text-align: center;
+    height: 46px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 2px solid #9bdbf8;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: #2a2a2a;
+    padding: 0px 0px;
+    margin: 35px 35px;
+}
+
+
+
+
